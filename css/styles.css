@@ -101,7 +101,8 @@ body {
   color: #404bbf;
 }
 .navigation-link:hover::after {
-  content: '1';
+  display: block;
+  content: '';
   width: 48px;
   height: 4px;
   border-radius: 2px;
@@ -136,6 +137,7 @@ body {
 }
 /*Hero*/
 .hero {
+  max-width: 1440рх;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
