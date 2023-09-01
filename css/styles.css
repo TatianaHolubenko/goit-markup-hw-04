@@ -100,7 +100,7 @@ body {
 .navigation-link:focus {
   color: #404bbf;
 }
-.navigation-link:hover::after {
+.navigation-link:after {
   display: block;
   content: '';
   width: 48px;
